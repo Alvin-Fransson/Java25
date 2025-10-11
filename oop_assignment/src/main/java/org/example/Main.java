@@ -5,11 +5,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Hero hero = new Hero("Alvin");
+        Zombie zombie = new Zombie();
 
-        System.out.println("Namn: " + hero.getName());
-        System.out.println("HP: " + hero.hp);
-        System.out.println("Attack Power: " + hero.attackPower);
-        System.out.println("Alive? " + hero.isAlive());
-
+        hero.attack(zombie);
+        zombie.attack(hero);
     }
 }
