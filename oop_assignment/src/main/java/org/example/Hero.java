@@ -4,9 +4,11 @@ public class Hero extends Character {
     private int xp;
     private int level;
     private int gold;
+    private Weapon weapon;
 
-    public Hero(String name) {
-        super(name, 100, 10);
+    public Hero(String name, Weapon weapon) {
+        super(name, 100, weapon.getAttackPower());
+        this.weapon = weapon;
         this.level = 1;
         this.xp = 0;
         this.gold = 0;
