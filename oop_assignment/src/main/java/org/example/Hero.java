@@ -12,25 +12,18 @@ public class Hero extends Character {
         this.gold = 0;
     }
 
-    @Override
-    public void attack(Character target) {
-        target.hp -= this.attackPower;
-        System.out.println(name + " attackerar " + target.getName() + " för " + attackPower + " skada;");
-    }
-
-
     public void gainXp(int amount) {
         xp += amount;
-        if (xp >= 100 && level < 10) {
+        if (xp >= 100 ) {
             levelUp();
-            xp -= 100;
         }
     }
 
     private void levelUp() {
-        level++;
-        maxHp += 20;
+        level = level + 1;
+        xp = xp - 100;
+        maxHp = maxHp + 20;
         hp = maxHp;
-        System.out.println(name + " gick upp till level " + level + "!");
+        System.out.println("Du gick på till level " + level + "!");
     }
 }

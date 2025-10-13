@@ -13,10 +13,11 @@ public abstract class Character {
         this.attackPower = attackPower;
     }
 
-    public abstract void attack(Character target);
-
-    public boolean isAlive() {
-        return hp > 0;
+    public void takeDamage(int damage) {
+        hp = hp - damage;
+        if (hp < 0) {
+            hp = 0;
+        }
     }
 
     public String getName() {
