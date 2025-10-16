@@ -1,11 +1,8 @@
 package org.example;
 
-import java.util.logging.Level;
-
 public class Hero extends Character {
     private int xp;
     private int level;
-    private int gold;
     private Weapon weapon;
 
     public Hero(String name, Weapon weapon) {
@@ -13,7 +10,6 @@ public class Hero extends Character {
         this.weapon = weapon;
         this.level = 1;
         this.xp = 0;
-        this.gold = 0;
     }
 
     public void setWeapon(Weapon weapon) {
@@ -32,7 +28,12 @@ public class Hero extends Character {
         xp = xp - 100;
         maxHp = maxHp + 20;
         hp = maxHp;
-        System.out.println("Du gick på till level " + level + "!");
+        System.out.println("Du gick upp till level " + level + "!");
+
+        if (level >= 10) {
+            System.out.println("Du nådde level 10 och klarade spelet grattis!!!");
+            System.exit(0);
+        }
     }
 
     public Weapon getWeapon() {
@@ -41,5 +42,9 @@ public class Hero extends Character {
 
     public int getLevel() {
         return level;
+    }
+
+    public int getXp() {
+        return xp;
     }
 }

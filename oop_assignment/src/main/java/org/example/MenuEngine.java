@@ -42,6 +42,8 @@ public MenuEngine() {
             case 1:
                 System.out.println("--------------------------");
                 System.out.println("Gå på äventyr");
+                Encounter encounter = new Encounter();
+                encounter.startAdventure(hero);
                 break;
 
             case 2:
@@ -50,6 +52,7 @@ public MenuEngine() {
                 System.out.println("Namn: " + hero.getName());
                 System.out.println("Hp: " + hero.hp + " / " + hero.maxHp);
                 System.out.println("Level: " + hero.getLevel());
+                System.out.println("XP: " + hero.getXp() + " / " + " 100");
                 System.out.println("Vapen: " + hero.getWeapon().getName());
                 break;
 

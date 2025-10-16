@@ -2,7 +2,8 @@ package org.example;
 
 public class Boss extends Monster {
 
-    public Boss(String name) {
-        super(name, 100, 10);
+    public Boss() {
+        super("Giant Zombie", 100, 8, 50);
     }
+
 }

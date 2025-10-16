@@ -2,8 +2,16 @@ package org.example;
 
 public abstract class Monster extends Character {
 
-    public Monster(String name, int maxHp, int attackPower) {
-        super(name, 50, 8);
+
+    private int xpReward;
+
+    public Monster(String name, int maxHp, int attackPower, int xpReward) {
+        super(name, maxHp, attackPower);
+        this.xpReward = xpReward;
+    }
+
+    public int getXpReward(){
+        return xpReward;
     }
 
 }
