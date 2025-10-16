@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Characters;
 
 /* Abstract klass som ärver från character
 * Innehåller namn, maxhp, attack power och xp reward*/

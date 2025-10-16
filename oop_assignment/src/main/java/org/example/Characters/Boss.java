@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Characters;
 
 /* Bossen i spelet och ärver från Monster */
 

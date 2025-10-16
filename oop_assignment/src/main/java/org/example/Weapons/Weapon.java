@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Weapons;
 
 /* Vapnet som Hero använder sig utav i battle */
 

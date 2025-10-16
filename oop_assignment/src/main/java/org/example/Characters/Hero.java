@@ -1,7 +1,9 @@
-package org.example;
+package org.example.Characters;
 
 /* Konkret metod som ärver från Character
 *  Innehåller xp, level och ett vapen */
+
+import org.example.Weapons.Weapon;
 
 public class Hero extends Character {
     private int xp;

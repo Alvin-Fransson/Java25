@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Characters;
 
 /* Ett vanligt monster som ärver från Monster klassen */
 

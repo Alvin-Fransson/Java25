@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Characters;
 
 /*
 * Abstract klass som mall för karaktärer i spelet.
@@ -45,6 +45,10 @@ public abstract class Character {
 
     public int getMaxHp() {
         return maxHp;
+    }
+
+    public int getAttackPower() {
+        return attackPower;
     }
 
     //Abstract metod som barn klasser implementerar, visar hur karaktärer attackerar.

@@ -1,4 +1,7 @@
-package org.example;
+package org.example.Engines;
+
+import org.example.Characters.Hero;
+import org.example.Weapons.Weapon;
 
 import java.util.Scanner;
 

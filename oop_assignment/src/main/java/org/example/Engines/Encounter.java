@@ -1,9 +1,14 @@
-package org.example;
+package org.example.Engines;
 
 /* Sköter slumpmässiga funktioner under äventyr
 *  70% chans för vanlig Zombie
 *  10% chans för Giant Zombie (Boss)
 *  20% chans för säker plats */
+
+import org.example.Characters.Boss;
+import org.example.Characters.Hero;
+import org.example.Characters.Monster;
+import org.example.Characters.Zombie;
 
 public class Encounter {
 
