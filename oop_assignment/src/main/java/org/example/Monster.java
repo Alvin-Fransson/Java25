@@ -1,5 +1,8 @@
 package org.example;
 
+/* Abstract klass som ärver från character
+* Innehåller namn, maxhp, attack power och xp reward*/
+
 public abstract class Monster extends Character {
 
 
@@ -13,5 +16,7 @@ public abstract class Monster extends Character {
     public int getXpReward(){
         return xpReward;
     }
+
+    public abstract void roar();
 
 }

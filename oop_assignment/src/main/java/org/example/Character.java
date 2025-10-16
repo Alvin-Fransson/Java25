@@ -1,11 +1,19 @@
 package org.example;
 
+/*
+* Abstract klass som mall för karaktärer i spelet.
+* Hero och monster ärver från denna klass.
+* Innehåller Name, Hp, maxHp, attackPower
+*/
+
 public abstract class Character {
+    // Protected = tillgänglig för barnklasser men inte utifrån.
     protected String name;
     protected int hp;
     protected int maxHp;
     protected int attackPower;
 
+    //Konstruktor
     public Character(String name, int maxHp, int attackPower) {
         this.name = name;
         this.maxHp = maxHp;
@@ -13,6 +21,7 @@ public abstract class Character {
         this.attackPower = attackPower;
     }
 
+    //Metod för att ta skada.
     public void takeDamage(int damage) {
         hp = hp - damage;
         if (hp < 0) {
@@ -20,11 +29,25 @@ public abstract class Character {
         }
     }
 
+    //Metod för att se så att karaktären lever
     public boolean isAlive()  {
         return hp > 0;
     }
 
+    //Getters
     public String getName() {
         return name;
     }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public int getMaxHp() {
+        return maxHp;
+    }
+
+    //Abstract metod som barn klasser implementerar, visar hur karaktärer attackerar.
+    public abstract void attackMessage();
+
 }
