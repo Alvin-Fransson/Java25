@@ -7,7 +7,7 @@ import org.example.Engines.MenuEngine;
 public class Main {
     public static void main(String[] args) {
 
-        /* Kör menyn så att spelet startar */
+        /* skapar ett nytt menu objekt så att menyn startar */
         MenuEngine menu = new MenuEngine();
     }
 }
