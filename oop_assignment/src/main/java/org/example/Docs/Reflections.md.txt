@@ -1,9 +1,10 @@
 # Reflektion
 
 ## Vad gick bra
-
+Det jag tyckte gick bäst och var roligast var att fixa själva funktionaliteten (MenuEngine, BattleEngine och encounter). Det var lite svårt men de var ändå roligt att få sätta ihop allt och se resultatet när det funkade. Något mer jag tyckte var bra och skönt var att lära sig dela upp allt bra och smidigt i klasser. I gymnasiet så blev jag bara lärd att skriva allt i Main och då var de svårt att göra stora projekt. Men nu när allt ligger uppdelat i olika klasser så blev det 100 gånger lättare att fixa problem och hitta rätt.
 
 ## Vad hade jag för utmaningar
-I början av projektet så hade jag väldigt svårt att komma igång då jag kände att jag hade dålig koll på arv och abstracta klasser
+I början av projektet så hade jag väldigt svårt att komma igång då jag kände att jag hade dålig koll på arv och abstrakta klasser. Men de löste jag genom att kolla tillbaka på gamla inspelningar och använde mig även av w3schools. Så efter att jag hade gjort Character och Hero så kände jag att jag hade lärt mig det så då gick det bättre. Något mer som jag tyckte var en utmaning var att förstå när jag skulle använda this. Jag hade ingen bra förståelse för vad den exakt gjorde men de löste jag på samma sätt som ovan, inspelningar och w3schools.
 
 ## Vad jag lärde mig
+Jag har lärt mig mycket under det här projektet men det jag tyckte var de bästa är getters och setters. Tidigare har jag gjort värden publika men då jag såg att allt skulle vara private/protected så fick jag först inte till funktionaliteten men efter jag börja experimentera med getters så fick jag funktionaliteten att funka. Något mer jag lärt mig är strukturera allt i olika klasser vilket underlättade något enormt. Hade jag gjort som jag blev lärd i gymnasiet (allt i main) så hade jag nog inte fått ihop det här projektet då de fort blev mycket kod.

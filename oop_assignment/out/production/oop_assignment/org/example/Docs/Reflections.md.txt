@@ -1,0 +1,9 @@
+# Reflektion
+
+## Vad gick bra
+
+
+## Vad hade jag för utmaningar
+I början av projektet så hade jag väldigt svårt att komma igång då jag kände att jag hade dålig koll på arv och abstracta klasser
+
+## Vad jag lärde mig
